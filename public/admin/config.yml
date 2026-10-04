@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: WonderSites/lastotoras-web
+  repo: WanderSites/lastotoras-web
   branch: main
   base_url: https://decap-cms-oauth-pearl-two.vercel.app
 
