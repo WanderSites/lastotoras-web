@@ -1,0 +1,6 @@
+{
+  "name": "Las Totoras — Cabañas de Río en Entre Ríos",
+  "description": "Alquiler de cabañas sobre el río Gualeguaychú en Pueblo Belgrano, Entre Ríos. Naturaleza, piscinas, muelle privado y kayaks. Consultá disponibilidad online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

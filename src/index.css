@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Lora', Georgia, serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, sans-serif;
+  
+  --color-river-900: #0E2226;
+  --color-river-800: #16353B;
+  --color-river-700: #1F4952;
+  --color-river-600: #2C636E;
+  --color-river-500: #3E8594;
+  --color-river-100: #E4EFF1;
+  --color-river-50: #F2F7F8;
+
+  --color-forest-950: #0D1A14;
+  --color-forest-900: #152B20;
+  --color-forest-800: #1F3F30;
+  --color-forest-700: #2D5844;
+  --color-forest-600: #3D765C;
+  --color-forest-500: #559B7A;
+  --color-forest-100: #E2ECE6;
+  --color-forest-50: #F2F7F4;
+
+  --color-earth-900: #382015;
+  --color-earth-800: #5A3322;
+  --color-earth-700: #884D34;
+  --color-earth-600: #AC6444;
+  --color-earth-500: #C97D5B;
+  --color-earth-100: #F4EAE4;
+  --color-earth-50: #FAF5F1;
+
+  --color-sand-50: #FAF8F5;
+  --color-sand-100: #F6F4EE;
+  --color-sand-200: #ECE8DD;
+  --color-sand-300: #DDD6C6;
+  --color-sand-400: #C2B9A5;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  background-color: #F6F4EE;
+  color: #202724;
+}
+
+/* Headings: Lora Bold (700) */
+h1, h2, h3, .font-serif, .font-heading {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+/* Menu links: Manrope 500 */
+nav a {
+  font-family: var(--font-sans);
+  font-weight: 500;
+}
+
+/* Buttons: Manrope 600 */
+button,
+a[class*="rounded-"],
+a[class*="btn"],
+input[type="submit"] {
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F0EDE5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4BCAB;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A39985;
+}

@@ -1,0 +1,5 @@
+# robots.txt for Las Totoras Cabañas
+User-agent: *
+Allow: /
+
+Sitemap: https://lastotorascabanas.com.ar/sitemap.xml
