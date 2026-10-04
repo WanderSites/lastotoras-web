@@ -191,3 +191,15 @@ collections:
             fields:
               - { label: "Texto del botón", name: "buttonText", widget: "string" }
               - { label: "Mensaje automático", name: "defaultMessage", widget: "string" }
+
+          - label: "Pop-up Promocional / Novedades"
+            name: "popup"
+            widget: "object"
+            fields:
+              - { label: "Activar Pop-up (Enabled)", name: "enabled", widget: "boolean", default: true }
+              - { label: "Imagen del Pop-up", name: "image", widget: "image" }
+              - { label: "Texto alternativo de la imagen (Alt)", name: "alt", widget: "string" }
+              - { label: "Título opcional", name: "title", widget: "string", required: false }
+              - { label: "Mostrar Botón de Acción", name: "showButton", widget: "boolean", default: true }
+              - { label: "Texto del Botón", name: "buttonText", widget: "string", required: false }
+              - { label: "Enlace del Botón (abre en pestaña nueva)", name: "buttonLink", widget: "string", required: false }

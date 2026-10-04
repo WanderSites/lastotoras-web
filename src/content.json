@@ -365,5 +365,14 @@
   "footer": {
     "copyright": "Todos los derechos reservados.",
     "createdBy": "Creado con Wandersites"
+  },
+  "popup": {
+    "enabled": true,
+    "image": "/images/piscina_lastotoras.webp",
+    "alt": "Promoción especial Las Totoras Cabañas & Río",
+    "title": "¡Escapada a orillas del río!",
+    "showButton": true,
+    "buttonText": "Consultar por WhatsApp",
+    "buttonLink": "https://wa.me/5493446629810?text=Hola%20Las%20Totoras!%20Quiero%20consultar%20por%20la%20promoci%C3%B3n."
   }
 }

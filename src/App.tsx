@@ -13,6 +13,7 @@ import FAQSection from './components/FAQSection';
 import BookingSection from './components/BookingSection';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+import PromoPopup from './components/PromoPopup';
 
 export default function App() {
   return (
@@ -48,6 +49,9 @@ export default function App() {
 
       {/* Botón flotante permanente de WhatsApp */}
       <FloatingWhatsApp />
+
+      {/* Pop-up promocional configurable */}
+      <PromoPopup />
     </div>
   );
 }
