@@ -1,83 +1,86 @@
 {
-  "site": {
-    "name": "Las Totoras",
-    "logo": "/images/logo2_lastotoras.png",
-    "logoWhite": "/images/logo2blanco_lastotoras.png",
-    "tagline": "Cabañas sobre el Río Gualeguaychú",
-    "location": "Entre Ríos, Argentina",
-    "address": "Camino de la Costa y Los Sauces s/n, Pueblo Belgrano, Entre Ríos",
-    "email": "contacto@lastotoras.com.ar",
-    "whatsappNumber": "5493446629810",
-    "whatsappDisplay": "+54 9 3446 62-9810",
-    "phoneDisplay": "03446 15-629810",
-    "instagram": "@lastotoras.gualeguaychu",
-    "googleMapsIframeUrl": "https://maps.google.com/maps?q=Rio%20Gualeguaychu%20Pueblo%20Belgrano%20Entre%20Rios&t=&z=13&ie=UTF8&iwloc=&output=embed",
-    "googleMapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Rio+Gualeguaychu+Entre+Rios+Pueblo+Belgrano"
-  },
   "nav": {
     "brandSubtitle": "",
     "links": [
-      { "label": "Las Cabañas", "href": "#cabanas" },
-      { "label": "Fotos", "href": "#galeria" },
-      { "label": "Comodidades", "href": "#comodidades" },
-      { "label": "Ubicación", "href": "#ubicacion" },
-      { "label": "Reserva", "href": "#reservar" }
+      {
+        "label": "Las Cabañas",
+        "href": "#cabanas"
+      },
+      {
+        "label": "Fotos",
+        "href": "#galeria"
+      },
+      {
+        "label": "Comodidades",
+        "href": "#comodidades"
+      },
+      {
+        "label": "Ubicación",
+        "href": "#ubicacion"
+      },
+      {
+        "label": "Reserva",
+        "href": "#reservar"
+      }
     ],
     "ctaButtonText": "Reserva ahora"
   },
-  "hero": {
-    "locationBadge": "Costa del Río Gualeguaychú · Entre Ríos",
-    "title": "Las Totoras",
-    "subtitle": "Cabañas sobre la costa del río en Entre Ríos. Naturaleza, tranquilidad y salida directa al agua para tu descanso.",
-    "ctaReserveButtonText": "Consultar por WhatsApp",
-    "ctaExploreButtonText": "Ver Cabañas",
-    "whatsappMessage": "¡Hola Las Totoras! Quiero consultar disponibilidad para una estadía en las cabañas.",
-    "backgroundImage": "/images/rio_lastotoras.webp",
-    "sliderImages": [
-      {
-        "src": "/images/piscina_lastotoras.webp",
-        "alt": "Piscina exterior de Las Totoras rodeada de naturaleza"
-      },
-      {
-        "src": "/images/rio_lastotoras.webp",
-        "alt": "Costa y vista panorámica del Río Gualeguaychú"
-      },
-      {
-        "src": "/images/vistas_lastotoras.webp",
-        "alt": "Vistas al parque y vegetación autóctona de Entre Ríos"
-      },
-      {
-        "src": "/images/arroyo_galeriaexterior.webp",
-        "alt": "Arroyo y galería exterior de las cabañas"
-      },
-      {
-        "src": "/images/piscinaclimatizada_lastotoras.webp",
-        "alt": "Piscina climatizada cubierta para disfrutar todo el año"
-      },
-      {
-        "src": "/images/recepcion_lastotoras.webp",
-        "alt": "Recepción y entorno cálido de Las Totoras"
-      }
+  "pricing": {
+    "guestOptions": [
+      "2 personas",
+      "3 personas",
+      "4 personas",
+      "5 personas",
+      "6 personas"
     ],
-    "highlights": [
-      "Muelle propio y bajada al río",
-      "Kayaks de uso libre",
-      "A 2h 30m de Buenos Aires",
-      "Pet-Friendly"
-    ]
+    "checkInLabel": "Fecha Entrada",
+    "cabinLabel": "Cabaña",
+    "checkOutLabel": "Fecha Salida",
+    "notesPlaceholder": "¿Viajás con mascota o tenés alguna consulta especial? (opcional)",
+    "sectionTitle": "Reserva",
+    "formTitle": "Consultá Disponibilidad por WhatsApp",
+    "submitButtonText": "Consultar",
+    "sectionDescription": "Elegí la cabaña y tus fechas para consultar disponibilidad directamente por WhatsApp.",
+    "guestsLabel": "Personas",
+    "formSubtitle": "Elegí tus fechas y te confirmamos al instante si hay lugar.",
+    "sectionBadge": "Estadías"
+  },
+  "site": {
+    "logo": "/images/logo2_lastotoras.png",
+    "name": "Las Totoras",
+    "tagline": "Cabañas sobre el Río Gualeguaychú",
+    "whatsappDisplay": "+54 9 3446 62-9810",
+    "instagram": "@lastotoras.gualeguaychu",
+    "phoneDisplay": "03446 15-629810",
+    "address": "Camino de la Costa y Los Sauces s/n, Pueblo Belgrano, Entre Ríos",
+    "location": "Entre Ríos, Argentina",
+    "googleMapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Rio+Gualeguaychu+Entre+Rios+Pueblo+Belgrano",
+    "googleMapsIframeUrl": "https://maps.google.com/maps?q=Rio%20Gualeguaychu%20Pueblo%20Belgrano%20Entre%20Rios&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    "whatsappNumber": "5493446629810",
+    "email": "contacto@lastotoras.com.ar",
+    "logoWhite": "/images/logo2blanco_lastotoras.png"
   },
   "cabins": {
     "sectionBadge": "Alojamiento en el Río",
     "sectionTitle": "Las Cabañas",
-    "sectionDescription": "Unidades independientes frente a la costa del río o inmersas en el verde. Totalmente equipadas con cocina, deck privado y todo el confort para tu descanso.",
+    "sectionDescription": "Unidades independientes frente a la costa del río rodeado de naturaleza. Totalmente equipadas con cocina, deck privado y todo el confort para tu descanso.",
     "priceLabel": "Precio orientativo:",
     "whatsappButtonText": "Consultar por WhatsApp",
     "units": [
       {
-        "id": "palmeras",
+        "photos": [
+          "/images/palmeras_cama.webp",
+          "/images/palmeras_cocina.webp",
+          "/images/palmeras_galeriaexterior.webp",
+          "/images/palmeras_bano.webp",
+          "/images/palmeras_vistaexterior.webp"
+        ],
+        "alt": "Cabaña Palmeras - Dormitorio matrimonial",
         "name": "Palmeras",
-        "capacity": "2 personas",
         "beds": "Matrimonial (1 Cama matrimonial)",
+        "capacity": "2 personas",
+        "id": "palmeras",
+        "image": "/images/palmeras_cama.webp",
         "description": "Cálida cabaña para 2 personas rodeada de naturaleza. Cuenta con dormitorio matrimonial, cocina equipada y deck privado con vista al parque para una estadía de descanso.",
         "features": [
           "Dormitorio matrimonial",
@@ -85,22 +88,22 @@
           "Aire acondicionado frío / calor",
           "Cocina equipada y vajilla"
         ],
-        "referencePrice": "$85.000 / noche",
-        "image": "/images/palmeras_cama.webp",
-        "alt": "Cabaña Palmeras - Dormitorio matrimonial",
-        "photos": [
-          "/images/palmeras_cama.webp",
-          "/images/palmeras_cocina.webp",
-          "/images/palmeras_galeriaexterior.webp",
-          "/images/palmeras_bano.webp",
-          "/images/palmeras_vistaexterior.webp"
-        ]
+        "referencePrice": "$85.000 / noche"
       },
       {
-        "id": "ceibo",
+        "photos": [
+          "/images/ceibo_jacuzi.webp",
+          "/images/ceibo_cama.webp",
+          "/images/ceibo_galeriaexterior.webp",
+          "/images/ceibo_bano.webp",
+          "/images/ceibo_vistaexterior.webp"
+        ],
+        "alt": "Cabaña Ceibo - Jacuzzi e hidromasaje deluxe",
         "name": "Ceibo",
-        "capacity": "2 personas",
         "beds": "Matrimonial Deluxe (1 cama matrimonial king)",
+        "capacity": "2 personas",
+        "id": "ceibo",
+        "image": "/images/ceibo_jacuzi.webp",
         "description": "Unidad exclusiva pensada para parejas, matrimonial deluxe con hidromasaje, ambiente cálido y deck exterior en un entorno agreste y relajante.",
         "features": [
           "Matrimonial Deluxe (1 cama matrimonial king)",
@@ -108,32 +111,9 @@
           "Deck exterior y relax",
           "Smart TV con Wi-Fi Starlink"
         ],
-        "referencePrice": "$95.000 / noche",
-        "image": "/images/ceibo_jacuzi.webp",
-        "alt": "Cabaña Ceibo - Jacuzzi e hidromasaje deluxe",
-        "photos": [
-          "/images/ceibo_jacuzi.webp",
-          "/images/ceibo_cama.webp",
-          "/images/ceibo_galeriaexterior.webp",
-          "/images/ceibo_bano.webp",
-          "/images/ceibo_vistaexterior.webp"
-        ]
+        "referencePrice": "$95.000 / noche"
       },
       {
-        "id": "arroyo",
-        "name": "Arroyo",
-        "capacity": "2 a 4 personas",
-        "beds": "Familiar · 2 dormitorios (1 matrimonial + 2 individuales)",
-        "description": "Cabaña amplia ideal para familias o grupos de hasta 4 personas. Dispone de dos dormitorios independientes, estar comedor y galería exterior sobre el entorno natural.",
-        "features": [
-          "2 dormitorios independientes",
-          "1 matrimonial + 2 individuales",
-          "Cocina completa y estar comedor",
-          "Galería exterior con vista al arroyo"
-        ],
-        "referencePrice": "$115.000 / noche",
-        "image": "/images/arroyo_living.webp",
-        "alt": "Cabaña Arroyo - Living y estar principal",
         "photos": [
           "/images/arroyo_living.webp",
           "/images/arroyo_hab1.webp",
@@ -142,7 +122,21 @@
           "/images/arroyo_bano.webp",
           "/images/arroyo_galeriaexterior.webp",
           "/images/arroyo_vista.webp"
-        ]
+        ],
+        "alt": "Cabaña Arroyo - Living y estar principal",
+        "name": "Arroyo",
+        "beds": "Familiar · 2 dormitorios (1 matrimonial + 2 individuales)",
+        "capacity": "2 a 4 personas",
+        "id": "arroyo",
+        "image": "/images/arroyo_living.webp",
+        "description": "Cabaña amplia ideal para familias o grupos de hasta 4 personas. Dispone de dos dormitorios independientes, estar comedor y galería exterior sobre el entorno natural.",
+        "features": [
+          "2 dormitorios independientes",
+          "1 matrimonial + 2 individuales",
+          "Cocina completa y estar comedor",
+          "Galería exterior con vista al arroyo"
+        ],
+        "referencePrice": "$115.000 / noche"
       }
     ]
   },
@@ -207,23 +201,6 @@
       }
     ]
   },
-  "amenities": {
-    "sectionBadge": "Todo Incluido",
-    "sectionTitle": "Comodidades & Servicios",
-    "sectionDescription": "Todo pensado para que solo te preocupes por relajarte y disfrutar del río.",
-    "items": [
-      { "icon": "Wifi", "title": "Wi-Fi Starlink", "desc": "Conexión rápida en todo el predio" },
-      { "icon": "Waves", "title": "Costa y Muelle", "desc": "Salida directa al río y pesca" },
-      { "icon": "Ship", "title": "Kayaks sin cargo", "desc": "Equipos y chalecos disponibles" },
-      { "icon": "Sun", "title": "Pileta & Solarium", "desc": "Cercada, con reposeras y césped" },
-      { "icon": "Trees", "title": "Parque & Verde", "desc": "Predio arbolado a orillas del río" },
-      { "icon": "Utensils", "title": "Cocina Equipada", "desc": "Heladera, anafe, vajilla y pava" },
-      { "icon": "Snowflake", "title": "Aire Frío / Calor", "desc": "Climatización en las habitaciones" },
-      { "icon": "Heart", "title": "Pet-Friendly", "desc": "Aceptamos mascotas con aviso previo" },
-      { "icon": "Coffee", "title": "Desayuno de Campo", "desc": "Pan casero y dulces regionales" },
-      { "icon": "Car", "title": "Cochera Techada", "desc": "Estacionamiento dentro del predio" }
-    ]
-  },
   "location": {
     "sectionBadge": "Cómo Llegar y Entorno",
     "sectionTitle": "Ubicación en el Mapa",
@@ -283,26 +260,110 @@
       }
     ]
   },
-  "pricing": {
-    "sectionBadge": "Estadías",
-    "sectionTitle": "Reserva",
-    "sectionDescription": "Elegí la cabaña y tus fechas para consultar disponibilidad directamente por WhatsApp.",
-    "formTitle": "Consultá Disponibilidad por WhatsApp",
-    "formSubtitle": "Elegí tus fechas y te confirmamos al instante si hay lugar.",
-    "cabinLabel": "Cabaña",
-    "checkInLabel": "Fecha Entrada",
-    "checkOutLabel": "Fecha Salida",
-    "guestsLabel": "Personas",
-    "guestOptions": ["2 personas", "3 personas", "4 personas", "5 personas", "6 personas"],
-    "notesPlaceholder": "¿Viajás con mascota o tenés alguna consulta especial? (opcional)",
-    "submitButtonText": "Consultar"
-  },
-  "footer": {
-    "copyright": "Todos los derechos reservados.",
-    "createdBy": "Creado con Wandersites"
+  "amenities": {
+    "sectionBadge": "Todo Incluido",
+    "sectionTitle": "Comodidades & Servicios",
+    "sectionDescription": "Todo pensado para que solo te preocupes por relajarte y disfrutar del río.",
+    "items": [
+      {
+        "icon": "Wifi",
+        "title": "Wi-Fi Starlink",
+        "desc": "Conexión rápida en todo el predio"
+      },
+      {
+        "icon": "Waves",
+        "title": "Costa y Muelle",
+        "desc": "Salida directa al río y pesca"
+      },
+      {
+        "icon": "Ship",
+        "title": "Kayaks sin cargo",
+        "desc": "Equipos y chalecos disponibles"
+      },
+      {
+        "icon": "Sun",
+        "title": "Pileta & Solarium",
+        "desc": "Cercada, con reposeras y césped"
+      },
+      {
+        "icon": "Trees",
+        "title": "Parque & Verde",
+        "desc": "Predio arbolado a orillas del río"
+      },
+      {
+        "icon": "Utensils",
+        "title": "Cocina Equipada",
+        "desc": "Heladera, anafe, vajilla y pava"
+      },
+      {
+        "icon": "Snowflake",
+        "title": "Aire Frío / Calor",
+        "desc": "Climatización en las habitaciones"
+      },
+      {
+        "icon": "Heart",
+        "title": "Pet-Friendly",
+        "desc": "Aceptamos mascotas con aviso previo"
+      },
+      {
+        "icon": "Coffee",
+        "title": "Desayuno de Campo",
+        "desc": "Pan casero y dulces regionales"
+      },
+      {
+        "icon": "Car",
+        "title": "Cochera Techada",
+        "desc": "Estacionamiento dentro del predio"
+      }
+    ]
   },
   "floatingWhatsApp": {
     "buttonText": "Consultar por WhatsApp",
     "defaultMessage": "¡Hola La Totora! Quiero consultar por disponibilidad en las cabañas."
+  },
+  "hero": {
+    "ctaExploreButtonText": "Ver Cabañas",
+    "ctaReserveButtonText": "Consultar por WhatsApp",
+    "backgroundImage": "/images/rio_lastotoras.webp",
+    "locationBadge": "Costa del Río Gualeguaychú · Entre Ríos",
+    "whatsappMessage": "¡Hola Las Totoras! Quiero consultar disponibilidad para una estadía en las cabañas.",
+    "subtitle": "Cabañas sobre la costa del río en Entre Ríos. Naturaleza, tranquilidad y salida directa al agua para tu descanso.",
+    "title": "Las Totoras",
+    "sliderImages": [
+      {
+        "src": "/images/piscina_lastotoras.webp",
+        "alt": "Piscina exterior de Las Totoras rodeada de naturaleza"
+      },
+      {
+        "src": "/images/rio_lastotoras.webp",
+        "alt": "Costa y vista panorámica del Río Gualeguaychú"
+      },
+      {
+        "src": "/images/vistas_lastotoras.webp",
+        "alt": "Vistas al parque y vegetación autóctona de Entre Ríos"
+      },
+      {
+        "src": "/images/arroyo_galeriaexterior.webp",
+        "alt": "Arroyo y galería exterior de las cabañas"
+      },
+      {
+        "src": "/images/piscinaclimatizada_lastotoras.webp",
+        "alt": "Piscina climatizada cubierta para disfrutar todo el año"
+      },
+      {
+        "src": "/images/recepcion_lastotoras.webp",
+        "alt": "Recepción y entorno cálido de Las Totoras"
+      }
+    ],
+    "highlights": [
+      "Muelle propio y bajada al río",
+      "Kayaks de uso libre",
+      "A 2h 30m de Buenos Aires",
+      "Pet-Friendly"
+    ]
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados.",
+    "createdBy": "Creado con Wandersites"
   }
 }
