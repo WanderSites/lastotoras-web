@@ -1,0 +1,193 @@
+backend:
+  name: github
+  repo: WonderSites/lastotoras-web
+  branch: main
+  base_url: https://decap-cms-oauth-pearl-two.vercel.app
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "contenido"
+    label: "Contenido del sitio"
+    files:
+      - name: "home"
+        label: "Página de inicio y Configuración"
+        file: "src/content.json"
+        fields:
+          - label: "Datos Generales del Complejo"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Logo", name: "logo", widget: "image" }
+              - { label: "Logo Blanco", name: "logoWhite", widget: "image" }
+              - { label: "Bajada / Tagline", name: "tagline", widget: "string" }
+              - { label: "Ubicación resumen", name: "location", widget: "string" }
+              - { label: "Dirección completa", name: "address", widget: "string" }
+              - { label: "Email de contacto", name: "email", widget: "string" }
+              - { label: "Número WhatsApp (sin espacios ni guiones)", name: "whatsappNumber", widget: "string" }
+              - { label: "WhatsApp visible", name: "whatsappDisplay", widget: "string" }
+              - { label: "Teléfono visible", name: "phoneDisplay", widget: "string" }
+              - { label: "Instagram", name: "instagram", widget: "string" }
+              - { label: "Google Maps Iframe URL", name: "googleMapsIframeUrl", widget: "string" }
+              - { label: "Google Maps Search URL", name: "googleMapsSearchUrl", widget: "string" }
+
+          - label: "Barra de Navegación"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Subtítulo de marca", name: "brandSubtitle", widget: "string", required: false }
+              - label: "Enlaces del menú"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Texto del enlace", name: "label", widget: "string" }
+                  - { label: "Destino ancla (ej: #cabanas)", name: "href", widget: "string" }
+              - { label: "Texto Botón CTA", name: "ctaButtonText", widget: "string" }
+
+          - label: "Portada / Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Badge de ubicación", name: "locationBadge", widget: "string" }
+              - { label: "Título Principal", name: "title", widget: "string" }
+              - { label: "Subtítulo descriptivo", name: "subtitle", widget: "text" }
+              - { label: "Texto Botón WhatsApp", name: "ctaReserveButtonText", widget: "string" }
+              - { label: "Texto Botón Explorar Cabañas", name: "ctaExploreButtonText", widget: "string" }
+              - { label: "Mensaje WhatsApp inicial", name: "whatsappMessage", widget: "string" }
+              - { label: "Imagen de fondo fija", name: "backgroundImage", widget: "image" }
+              - label: "Imágenes del carrusel"
+                name: "sliderImages"
+                widget: "list"
+                fields:
+                  - { label: "Foto", name: "src", widget: "image" }
+                  - { label: "Texto alternativo SEO (Alt)", name: "alt", widget: "string" }
+              - label: "Destacados rápidos (chips)"
+                name: "highlights"
+                widget: "list"
+                field: { label: "Texto destacado", name: "highlight", widget: "string" }
+
+          - label: "Cabañas"
+            name: "cabins"
+            widget: "object"
+            fields:
+              - { label: "Badge de sección", name: "sectionBadge", widget: "string" }
+              - { label: "Título de sección", name: "sectionTitle", widget: "string" }
+              - { label: "Descripción de sección", name: "sectionDescription", widget: "text" }
+              - { label: "Etiqueta de precio", name: "priceLabel", widget: "string" }
+              - { label: "Texto botón WhatsApp", name: "whatsappButtonText", widget: "string" }
+              - label: "Unidades de Cabañas"
+                name: "units"
+                widget: "list"
+                fields:
+                  - { label: "ID identificador (ej: palmeras, ceibo, arroyo)", name: "id", widget: "string" }
+                  - { label: "Nombre de la Cabaña", name: "name", widget: "string" }
+                  - { label: "Capacidad (ej: 2 personas)", name: "capacity", widget: "string" }
+                  - { label: "Camas / Distribución", name: "beds", widget: "string" }
+                  - { label: "Descripción", name: "description", widget: "text" }
+                  - label: "Características incluidas"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Característica", name: "feature", widget: "string" }
+                  - { label: "Precio de referencia", name: "referencePrice", widget: "string" }
+                  - { label: "Foto principal", name: "image", widget: "image" }
+                  - { label: "Texto alternativo foto (Alt)", name: "alt", widget: "string" }
+                  - label: "Fotos de la Cabaña (Galería interior y exterior)"
+                    name: "photos"
+                    widget: "list"
+                    field: { label: "Foto", name: "photo", widget: "image" }
+
+          - label: "Galería de Fotos"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - { label: "Badge de sección", name: "sectionBadge", widget: "string" }
+              - { label: "Título de sección", name: "sectionTitle", widget: "string" }
+              - { label: "Descripción de sección", name: "sectionDescription", widget: "text" }
+              - label: "Fotos del Complejo"
+                name: "photos"
+                widget: "list"
+                fields:
+                  - { label: "Foto", name: "src", widget: "image" }
+                  - { label: "Título / Epígrafe", name: "title", widget: "string" }
+                  - { label: "Categoría (ej: Piscinas, El Río, Actividades, Desayuno)", name: "category", widget: "string" }
+                  - { label: "Texto alternativo SEO (Alt)", name: "alt", widget: "string" }
+
+          - label: "Comodidades & Servicios"
+            name: "amenities"
+            widget: "object"
+            fields:
+              - { label: "Badge de sección", name: "sectionBadge", widget: "string" }
+              - { label: "Título de sección", name: "sectionTitle", widget: "string" }
+              - { label: "Descripción de sección", name: "sectionDescription", widget: "text" }
+              - label: "Servicios incluidos"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Nombre de ícono Lucide (Wifi, Waves, Ship, Sun, Trees, Utensils, Snowflake, Heart, Coffee, Car)", name: "icon", widget: "string" }
+                  - { label: "Título del servicio", name: "title", widget: "string" }
+                  - { label: "Descripción breve", name: "desc", widget: "string" }
+
+          - label: "Ubicación & Cómo Llegar"
+            name: "location"
+            widget: "object"
+            fields:
+              - { label: "Badge de sección", name: "sectionBadge", widget: "string" }
+              - { label: "Título de sección", name: "sectionTitle", widget: "string" }
+              - { label: "Descripción de ubicación", name: "description", widget: "text" }
+              - { label: "Texto botón mapa", name: "openMapsText", widget: "string" }
+              - label: "Destacados y distancias de acceso"
+                name: "highlights"
+                widget: "list"
+                fields:
+                  - { label: "Título del punto", name: "title", widget: "string" }
+                  - { label: "Distancia / Descripción", name: "desc", widget: "string" }
+
+          - label: "Preguntas Frecuentes (FAQ)"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Badge de sección", name: "sectionBadge", widget: "string" }
+              - { label: "Título de sección", name: "sectionTitle", widget: "string" }
+              - { label: "Descripción de sección", name: "sectionDescription", widget: "text" }
+              - label: "Preguntas y Respuestas"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Pregunta", name: "question", widget: "string" }
+                  - { label: "Respuesta detallada", name: "answer", widget: "text" }
+
+          - label: "Formulario de Reserva y Tarifas"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - { label: "Badge de sección", name: "sectionBadge", widget: "string" }
+              - { label: "Título de sección", name: "sectionTitle", widget: "string" }
+              - { label: "Descripción de sección", name: "sectionDescription", widget: "text" }
+              - { label: "Título del formulario", name: "formTitle", widget: "string" }
+              - { label: "Subtítulo del formulario", name: "formSubtitle", widget: "string" }
+              - { label: "Etiqueta campo Cabaña", name: "cabinLabel", widget: "string" }
+              - { label: "Etiqueta Entrada", name: "checkInLabel", widget: "string" }
+              - { label: "Etiqueta Salida", name: "checkOutLabel", widget: "string" }
+              - { label: "Etiqueta Personas", name: "guestsLabel", widget: "string" }
+              - label: "Opciones del desplegable de personas"
+                name: "guestOptions"
+                widget: "list"
+                field: { label: "Opción", name: "option", widget: "string" }
+              - { label: "Texto de ayuda / aclaración de notas", name: "notesPlaceholder", widget: "string" }
+              - { label: "Texto botón consultar", name: "submitButtonText", widget: "string" }
+
+          - label: "Pie de Página (Footer)"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Texto Copyright", name: "copyright", widget: "string" }
+              - { label: "Créditos Creado por", name: "createdBy", widget: "string" }
+
+          - label: "Botón Flotante de WhatsApp"
+            name: "floatingWhatsApp"
+            widget: "object"
+            fields:
+              - { label: "Texto del botón", name: "buttonText", widget: "string" }
+              - { label: "Mensaje automático", name: "defaultMessage", widget: "string" }
